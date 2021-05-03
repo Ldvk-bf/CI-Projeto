@@ -1,0 +1,161 @@
+/* Configurações gerais */
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+.screen {
+    position: relative;
+    top: 100px;
+    
+}
+
+/* Configuração para os componetes*/
+body, html {
+    font: 16px  ;
+    background: rgb(242, 246, 249);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+
+/* Configuração para as CLASSEs */
+
+
+/* configurações para imagens */
+.image-logo {
+    
+    height: 100px;
+    width: 100px;
+}
+
+/* fim configurações para imagem */
+
+/* Configuração para as classes */
+.my-card {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.content-card-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.display {
+    margin: 0px 2rem;
+}
+
+
+
+/* Configuração para os IDs */
+
+#content-main {
+    position: relative;
+    top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    height: 100%;
+
+}
+
+#project-init {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    animation-name: animationTitle;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.group-button {
+
+    animation-name: animationGroupButton;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+#orientacao {
+    color: #19875400;
+    border-color: #19875400;
+}
+#representante {
+    color: #19875400;
+    border-color: #19875400;
+}
+
+/* animations  */
+
+@keyframes animationTitle {
+    0% { top: 0px; }
+    100% {top: -300px; }
+}
+
+@keyframes animationGroupButton {
+    0% { color: #19875400; border-color: #19875400; }
+    100% { color: #0d6efd;  border-color: #0d6efd;}
+}
+
+/* inicio menu da pagina */
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+nav div a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+#menu > * {
+    margin: 10px 5px;
+
+}
+
+#Content-Header {
+    background: #FFF;
+    box-shadow: 0px 5px 10px -4px #ccc;
+}
+
+
+
+/* fim menu da pagina */
+
+
